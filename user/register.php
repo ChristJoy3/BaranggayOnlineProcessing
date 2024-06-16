@@ -1,12 +1,17 @@
 <?php
 session_start();
-include '../admin/Database.php'; // Adjust path as necessary
-include 'user.php'; // Adjust path as necessary
-include 'UploadHandler.php'; // Adjust path as necessary
+include '../admin/Database.php'; 
+include 'user.php'; 
+include 'UploadHandler.php'; 
 
 
 
+$host = "localhost";
+$username = "dfoiwidm_BaranggayOnlineProcessing";
+$password = "BaranggayOnlineProcessing";
+$database = "dfoiwidm_BaranggayOnlineProcessing";
 
+$db = new Database($host, $username, $password, $database);
 $user = new User($db);
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {

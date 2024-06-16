@@ -8,8 +8,12 @@ checkAdmin();
 include_once '../admin/Database.php';
 include_once '../user/user.php';
 
+$host = "localhost";
+$username = "dfoiwidm_BaranggayOnlineProcessing";
+$password = "BaranggayOnlineProcessing";
+$database = "dfoiwidm_BaranggayOnlineProcessing";
 
-
+$db = new Database($host, $username, $password, $database);
 
 //For user Count
 $user = new User($db);
