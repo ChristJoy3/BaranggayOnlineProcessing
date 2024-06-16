@@ -3,7 +3,7 @@ session_start();
 include '../admin/Database.php';
 include 'user.php';
 
-$host = "localhost";
+$host = "192.250.235.45";
 $username = "dfoiwidm_BaranggayOnlineProcessing";
 $password = "BaranggayOnlineProcessing";
 $database = "dfoiwidm_BaranggayOnlineProcessing";
