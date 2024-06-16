@@ -9,12 +9,7 @@ include_once '../admin/Database.php';
 include_once '../user/user.php';
 
 
-$host = "dfoiwidm";
-$username = "dfoiwidm_BaranggayOnlineProcessing";
-$password = "8xDT2fy;4LM4b(";
-$database = "dfoiwidm_BaranggayOnlineProcessing";
 
-$db = new Database($host, $username, $password, $database);
 
 //For user Count
 $user = new User($db);
