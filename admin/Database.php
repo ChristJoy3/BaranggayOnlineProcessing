@@ -6,7 +6,7 @@ class Database {
     private $password;
     public $conn;
 
-    public function __construct($host = "localhost", $username = "root", $password = "", $db_name = "paper_transactions") {
+    public function __construct($host = "dfoiwidm", $username = "dfoiwidm_BaranggayOnlineProcessing", $password = "8xDT2fy;4LM4b(", $db_name = "dfoiwidm_BaranggayOnlineProcessing") {
         $this->host = $host;
         $this->db_name = $db_name;
         $this->username = $username;

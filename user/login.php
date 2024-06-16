@@ -3,10 +3,10 @@ session_start();
 include '../admin/Database.php';
 include 'user.php';
 
-$host = "localhost";
-$username = "root";
-$password = "";
-$database = "paper_transactions";
+$host = "dfoiwidm";
+$username = "dfoiwidm_BaranggayOnlineProcessing";
+$password = "8xDT2fy;4LM4b(";
+$database = "dfoiwidm_BaranggayOnlineProcessing";
 
 $db = new Database($host, $username, $password, $database);
 $user = new User($db);
