@@ -3,7 +3,7 @@
 include_once('user/session.php');
 
 if (isLoggedIn()) {
-    header("Location: dashboard.php");
+    header("Location: user/Dashboard.php");
     exit();
 }
 ?>
