@@ -102,11 +102,11 @@ checkSession();
         <div class="max-width">
             <div class="logo"><a href="#"><span>BOP SYSTEM</span></a></div>
             <ul class="menu">
-                <li><a href="/BarrangayOnlineProcessing/user/Dashboard.php" class="menu-btn">Home</a></li>
+                <li><a href="../user/Dashboard.php" class="menu-btn">Home</a></li>
                 <li><a href="#about" class="menu-btn">About</a></li>
                 <li><a href="#services" class="menu-btn">Services</a></li>
                 <li><a href="#contact" class="menu-btn">Contact Us</a></li>
-                <li><a href="/BarrangayOnlineProcessing/admin/search-transaction.php" class="menu-btn">Track My Request</a></li>
+                <li><a href="search-transaction.php" class="menu-btn">Track My Request</a></li>
                 <li>
                     <div class="dropdown">
                         <a href="#" class="menu-btn">
@@ -120,7 +120,7 @@ checkSession();
                         </a>
                         <div class="content">
                             <a href="editprofile.php">Profile</a>
-                            <a href="/BarrangayOnlineProcessing/user/logout.php">Log Out</a>
+                            <a href="../user/logout.php">Log Out</a>
                         </div>
                     </div>
                 </li>
