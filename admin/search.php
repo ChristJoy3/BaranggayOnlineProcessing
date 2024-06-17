@@ -2,6 +2,12 @@
 include_once('session.php');
 checkSession();
 
+if (isAdmin()) {
+    header("Location: ../admin-panel.php");
+    exit(); 
+}
+
+
 ?>
 
 <!DOCTYPE html>
