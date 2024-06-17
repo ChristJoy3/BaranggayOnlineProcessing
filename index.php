@@ -1,6 +1,6 @@
 
 <?php
-include_once('session.php');
+include_once('user/session.php');
 
 if (isLoggedIn()) {
     header("Location: dashboard.php");
