@@ -103,10 +103,10 @@ checkSession();
         <div class="max-width">
             <div class="logo"><a href="#"><span>BOP SYSTEM</span></a></div>
             <ul class="menu">
-                <li><a href="../user/dashboard.php" class="menu-btn">Home</a></li>
-                <li><a href="../user/dashboard.php #about" class="menu-btn">About</a></li>
-                <li><a href="../user/dashboard.php #services" class="menu-btn">Services</a></li>
-                <li><a href="/../user/dashboard.php #contact" class="menu-btn">Contact Us</a></li>
+                <li><a href="../user/Dashboard.php" class="menu-btn">Home</a></li>
+                <li><a href="../user/Dashboard.php #about" class="menu-btn">About</a></li>
+                <li><a href="../user/Dashboard.php #services" class="menu-btn">Services</a></li>
+                <li><a href="/../user/Dashboard.php #contact" class="menu-btn">Contact Us</a></li>
                 <li><a href="search-transaction.php" class="menu-btn">Track My Request</a></li>
                 <li>
                     <div class="dropdown">
