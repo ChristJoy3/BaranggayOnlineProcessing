@@ -1,5 +1,12 @@
 
+<?php
+include_once('session.php');
 
+if (isLoggedIn()) {
+    header("Location: dashboard.php");
+    exit();
+}
+?>
 
 
 <!DOCTYPE html>
@@ -30,8 +37,8 @@
                 <li><a href="#about" class="menu-btn">About</a></li>
                 <li><a href="#services" class="menu-btn">Services</a></li>
                 <li><a href="#contact" class="menu-btn">Contact Us</a></li>
-                <li><a href="login-form.php" class="menu-btn">Log-in</a></li>
-                <li><a href="register-form.php" class="menu-btn">Sign Up</a></li>
+                <li><a href="../user/login-form.php" class="menu-btn">Log-in</a></li>
+                <li><a href="../user/register-form.php" class="menu-btn">Sign Up</a></li>
                 
         
                 

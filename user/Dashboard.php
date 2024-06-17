@@ -1,4 +1,12 @@
+<?php
+include_once('session.php');
+checkSession();
 
+if (isAdmin()) {
+    header("Location: ../admin/admin-panel.php");
+    exit(); 
+}
+?>
 
 <!DOCTYPE html>
 <html lang="en">
