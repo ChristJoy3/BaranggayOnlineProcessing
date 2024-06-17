@@ -22,7 +22,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     if ($transaction->createPaperTransaction($trackingCode, $name, $service_type, $pickup_date, $date_requested, $purpose)) {
         echo "<script>alert('Paper transaction created successfully! Tracking code: $trackingCode');</script>";
-        echo "<script>window.location.replace('../user/dashboard.php');</script>";
+        echo "<script>window.location.replace('../user/Dashboard.php');</script>";
     } else {
         echo "<script>alert('Error creating paper transaction.');</script>";
         echo "<script>window.location.replace('index.php');</script>";
