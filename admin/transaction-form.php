@@ -49,7 +49,7 @@ checkSession();
 
         <button type="button" class="btn btn-primary" onclick="generateTrackingCode()">Generate Tracking Code</button>
         <button type="submit" class="btn btn-success">Submit</button>
-        <a href="../user/index.php" class="btn btn-secondary" type="button">Back</a>
+        <a href="../user/Dashboard.php" class="btn btn-secondary" type="button">Back</a>
     </form>
 
     <div id="formDataDisplay"></div>

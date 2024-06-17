@@ -38,7 +38,7 @@ if (isLoggedIn()) {
                 
                 <div class="d-grid gap-2 col-12 mt-3">
                     <input class="btn btn-primary" type="submit" value="Register">
-                    <a href="index.php" class="btn btn-secondary">Back</a>
+                    <a href="../index.php" class="btn btn-secondary">Back</a>
                 </div>
             </form>
 
