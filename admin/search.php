@@ -121,7 +121,7 @@ checkSession();
                         </a>
                         <div class="content">
                             <a href="editprofile.php">Profile</a>
-                            <a href="/BarrangayOnlineProcessing/user/logout.php">Log Out</a>
+                            <a href="../user/logout.php">Log Out</a>
                         </div>
                     </div>
                 </li>
