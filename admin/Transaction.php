@@ -1,5 +1,5 @@
 <?php
-include_once "Database.php"; // Assuming Database.php contains your Database class
+include_once "Database.php"; 
 
 class Transaction {
     private $db;
@@ -16,12 +16,12 @@ class Transaction {
     }
 
     public function generateTrackingCode() {
-        // Generate a random tracking code (You can implement your logic here)
+        
         return "TR-" . uniqid();
     }
 
     public function createPaperTransaction($tracking_code, $name, $service_type, $pickup_date, $date_requested, $purpose) {
-        $status = "pending"; // Initial status for new transactions
+        $status = "pending"; 
         $sql = "INSERT INTO paper_transactions (tracking_code, name, service_type, pickup_date, date_requested, purpose, status) 
                 VALUES (:tracking_code, :name, :service_type, :pickup_date, :date_requested, :purpose, :status)";
         $params = [

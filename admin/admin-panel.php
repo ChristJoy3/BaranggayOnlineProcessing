@@ -8,7 +8,7 @@ checkAdmin();
 include_once '../admin/Database.php';
 include_once '../user/user.php';
 
-$host = "s1323.sgp1.mysecurecloudhost.com";
+$host = "localhost";
 $username = "dfoiwidm_BaranggayOnlineProcessing";
 $password = "BaranggayOnlineProcessing";
 $database = "dfoiwidm_BaranggayOnlineProcessing";

@@ -3,7 +3,7 @@ session_start();
 include '../admin/Database.php';
 include 'user.php';
 
-$host = "s1323.sgp1.mysecurecloudhost.com";
+$host = "localhost";
 $username = "dfoiwidm_BaranggayOnlineProcessing";
 $password = "BaranggayOnlineProcessing";
 $database = "dfoiwidm_BaranggayOnlineProcessing";

@@ -6,7 +6,7 @@ include 'UploadHandler.php';
 
 
 
-$host = "s1323.sgp1.mysecurecloudhost.com";
+$host = "localhost";
 $username = "dfoiwidm_BaranggayOnlineProcessing";
 $password = "BaranggayOnlineProcessing";
 $database = "dfoiwidm_BaranggayOnlineProcessing";
