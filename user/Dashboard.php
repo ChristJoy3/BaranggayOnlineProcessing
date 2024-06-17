@@ -98,11 +98,11 @@ if (isAdmin()) {
             <div class="max-width">
                 <div class="logo"><a href="#">BOP <span>SYTEM</span></a></div>
                 <ul class="menu">
-                    <li><a href="/barrangayonlineprocessing/user/dashboard.php" class="menu-btn">Home</a></li>
+                    <li><a href="../user/dashboard.php" class="menu-btn">Home</a></li>
                     <li><a href="#about" class="menu-btn">About</a></li>
                     <li><a href="#services" class="menu-btn">Services</a></li>
                     <li><a href="#contact" class="menu-btn">Contact Us</a></li>
-                    <li><a href="/BarrangayOnlineProcessing/admin/search-transaction.php" class="menu-btn">Track My Request</a></li>
+                    <li><a href="../admin/search-transaction.php" class="menu-btn">Track My Request</a></li>
                     <li><div class="dropdown">
                     <a href="#" class="menu-btn">
                     <?php
@@ -173,7 +173,7 @@ if (isAdmin()) {
                         <div class="text">Certificate of Indegency</div>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.</p>
                         <?php if(isset($_SESSION['username'])) { ?>
-                        <a href="/BarrangayOnlineProcessing/admin/transaction-form.php">Proceed Now</a>
+                        <a href="../admin/transaction-form.php">Proceed Now</a>
                     <?php } else { ?>
                         <a href="#" onclick="alert('Please log in first.'); return false;">Proceed Now</a>
                     <?php } ?>
@@ -185,7 +185,7 @@ if (isAdmin()) {
                         <div class="text">Certificate of Residency</div>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.</p>
                         <?php if(isset($_SESSION['username'])) { ?>
-                        <a href="/BarrangayOnlineProcessing/admin/transaction-form.php">Proceed Now</a>
+                        <a href="../admin/transaction-form.php">Proceed Now</a>
                     <?php } else { ?>
                         <a href="#" onclick="alert('Please log in first.'); return false;">Proceed Now</a>
                     <?php } ?>
@@ -197,7 +197,7 @@ if (isAdmin()) {
                         <div class="text">Baranggay Business Permit</div>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.</p>
                         <?php if(isset($_SESSION['username'])) { ?>
-                        <a href="/BarrangayOnlineProcessing/admin/transaction-form.php">Proceed Now</a>
+                        <a href="../admin/transaction-form.php">Proceed Now</a>
                     <?php } else { ?>
                         <a href="#" onclick="alert('Please log in first.'); return false;">Proceed Now</a>
                     <?php } ?>
