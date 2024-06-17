@@ -1,15 +1,4 @@
 
-<?php
-include_once('session.php');
-
-if (isLoggedIn()) {
-    header("Location: dashboard.php");
-    exit();
-}
-
-
-
-?>
 
 
 
