@@ -28,7 +28,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         if ($loggedInUser['role'] == 0) {
             header("Location: Dashboard.php");
         } else {
-            header("Location: /BarrangayOnlineProcessing/admin/admin-panel.php");
+            header("Location: ../admin/admin-panel.php");
         }
         exit();
     } else {
