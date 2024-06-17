@@ -105,17 +105,12 @@ if (isAdmin()) {
                     <li><a href="/BarrangayOnlineProcessing/admin/search-transaction.php" class="menu-btn">Track My Request</a></li>
                     <li><div class="dropdown">
                     <a href="#" class="menu-btn">
-                        <?php
-                        if(isset($_SESSION['username'])) {
-                            echo '<span class="username">' . $_SESSION['username'] . '</span>';
-                            if(isset($_SESSION['profile_picture'])) {
-                                echo '<img src="' . $_SESSION['profile_picture'] . '" alt="Profile Picture" class="profile-picture">';
-                            } else {
-                                echo '';
-                            }
-                        } else {
-                            echo 'Session is not working.';
-                        }
+                    <?php
+                                if(isset($_SESSION['username'])) {
+                                    echo 'Hi, ' . $_SESSION['username'];
+                                } else {
+                                    echo 'Session is not working.'; 
+                                }
                         ?>
                     </a>
 

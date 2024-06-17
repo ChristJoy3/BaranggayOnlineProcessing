@@ -1,9 +1,7 @@
 <?php
 session_start();
-include '../admin/Database.php'; 
-include 'user.php'; 
-include 'UploadHandler.php'; 
-
+include 'dbconn.php';
+include 'user.php';
 
 
 $host = "localhost";
@@ -11,7 +9,9 @@ $username = "dfoiwidm_BaranggayOnlineProcessing";
 $password = "BaranggayOnlineProcessing";
 $database = "dfoiwidm_BaranggayOnlineProcessing";
 
+
 $db = new Database($host, $username, $password, $database);
+
 $user = new User($db);
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
@@ -19,18 +19,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $email = $_POST["email"];
     $password = $_POST["password"];
 
-    // Handle profile picture upload
-    $uploadHandler = new UploadHandler();
-    $uploadedFilePath = $uploadHandler->upload($_FILES['profile_picture'], $username);
-
-    if ($user->register($username, $email, $password, $uploadedFilePath)) {
-        // Registration successful
+    if ($user->register($username, $email, $password)) {
+        
         header("Location: login-form.php");
         exit();
     } else {
-        // Registration failed
+        
         header("Location: register-form.php?error=2");
         exit();
     }
 }
+
 ?>
